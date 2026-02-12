@@ -1,11 +1,12 @@
-📌 Semantic Search & Text Embeddings Project
-🚀 Overview
+
+##📌 Semantic Search & Text Embeddings Project
+#🚀 Overview
 
 This project demonstrates how to build a Simple Semantic Search Engine using Sentence Transformers and cosine similarity.
 
 Instead of searching by exact keywords, this system searches by meaning (semantic similarity) using text embeddings.
 
-🧠 What This Project Covers
+#🧠 What This Project Covers
 
 Text Embeddings using SentenceTransformer
 
@@ -19,26 +20,25 @@ Simple Semantic Search Engine
 
 Ranking top-k most relevant documents
 
-📂 Project Structure
+#📂 Project Structure
 ├── semantic_search.py
 ├── similarity_matrix.py
 ├── visualization_tsne.py
 ├── requirements.txt
 └── README.md
 
-🔧 Installation
+#🔧 Installation
 
 Clone the repository:
 
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
-
+git clone https://github.com/HusseinWaleed1/Semantic_Search.git
+cd Semantic_Search
 
 Install dependencies:
 
 pip install -r requirements.txt
 
-📦 Requirements
+#📦 Requirements
 
 Main libraries used:
 
@@ -52,15 +52,15 @@ pandas
 
 matplotlib
 
-🔍 How It Works
-1️⃣ Convert Text to Embeddings
+#🔍 How It Works
+#1️⃣ Convert Text to Embeddings
 
 Each sentence is converted into a vector representation using:
 
 model = SentenceTransformer("all-MiniLM-L6-v2")
 embeddings = model.encode(sentences)
 
-2️⃣ Compute Similarity Matrix
+#2️⃣ Compute Similarity Matrix
 
 We calculate similarity between sentences using cosine similarity:
 
@@ -75,7 +75,7 @@ Close to 0 = unrelated
 
 Negative = opposite meaning (rare in text embeddings)
 
-3️⃣ Visualization with t-SNE
+#3️⃣ Visualization with t-SNE
 
 Embeddings are reduced from high dimensions to 2D using:
 
@@ -84,7 +84,7 @@ TSNE(n_components=2)
 
 This helps visualize semantic clusters (Animals, Programming, Food, Sports).
 
-4️⃣ Simple Semantic Search Engine
+#4️⃣ Simple Semantic Search Engine
 
 The system:
 
@@ -107,7 +107,7 @@ Rank: 1
 Score: 0.89
 Document: Machine learning is a subset of artificial intelligence
 
-🎯 Example Use Cases
+#🎯 Example Use Cases
 
 FAQ Systems
 
@@ -119,12 +119,12 @@ RAG Systems
 
 Knowledge Retrieval
 
-📊 Sample Query Results
+#📊 Sample Query Results
 Query	Best Match
 What is AI?	Machine learning is a subset of artificial intelligence
 How neural networks work?	Neural Networks are inspired by human brain
 Best language for data science?	Python is a popular programming language for data science
-🏆 Key Learning Outcomes
+#🏆 Key Learning Outcomes
 
 Understanding text embeddings
 
@@ -136,7 +136,7 @@ Ranking documents by meaning
 
 Visualizing embedding clusters
 
-📌 Future Improvements
+#📌 Future Improvements
 
 Integrate FAISS for large-scale search
 
@@ -149,4 +149,4 @@ Store embeddings in a vector database
 👨‍💻 Author
 
 Hussien Waleed
-AI & Machine Learning Enthusiast 🚀
+AI & NLP Enthusiast 🚀
