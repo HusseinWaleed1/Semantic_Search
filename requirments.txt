@@ -1,0 +1,6 @@
+numpy==2.4.2
+seaborn==0.13.2
+matplotlib== 3.10.8
+sentence-transformers == 5.2.2
+sklearn== 0.0.post12
+pandas== 3.0.0
